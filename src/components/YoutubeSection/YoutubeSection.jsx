@@ -1,13 +1,20 @@
 import { YouTubeEmbed } from "react-social-media-embed";
 import Whatsapp from "../../assets/whatsapp.png";
 import styled from "./style.module.scss";
+import { useWindowSize } from "react-use";
 
 export const YoutubeSection = () => {
+    const { width } = useWindowSize();
     return (
         <section className={styled.youtubeSection}>
             <div className={styled.container}>
                 <div className={styled.videoContainer}>
-                    <YouTubeEmbed url="https://www.youtube.com/watch?v=gWLlnOEJ7SY" className={styled.video} />
+                    {
+                        width > 800 ?
+                            <YouTubeEmbed url="https://www.youtube.com/watch?v=gWLlnOEJ7SY" className={styled.video} width={700} height={500} />
+                            :
+                            <YouTubeEmbed url="https://www.youtube.com/watch?v=gWLlnOEJ7SY" className={styled.video} width={350} />
+                    }
                 </div>
 
                 <div className={styled.textContainer}>

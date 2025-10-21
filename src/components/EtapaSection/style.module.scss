@@ -90,3 +90,37 @@
         }
     }
 }
+@media(max-width: 800px){
+    .etapaSection{
+        .container{
+            flex-direction: column;
+            .textContainer{
+                width: 100%;
+                align-items: center;
+                .title{
+                    width: 100%;
+                    font-size: 1.5rem;
+                    text-align: center;
+                    line-height: 36px;
+                }
+                .text,.textStyled{
+                    width: 100%;
+                    text-align: justify;
+                }
+                .textStyled{
+                    font-weight: 700;
+                }
+                .btnWhatsapp{
+                    .btnContainer{
+                        p{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+            .imgContainer{
+                width: 100%;
+            }
+        }
+    }
+}

@@ -47,3 +47,15 @@
         }
     }
 }
+@media(max-width: 800px){
+    .footerSection{
+        .container{
+            width: 100%;
+            .socialContainer{
+                li{
+                    width: 10%;
+                }
+            }
+        }
+    }
+}

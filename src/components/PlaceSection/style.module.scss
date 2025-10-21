@@ -59,3 +59,25 @@
         }
     }
 }
+@media(max-width: 800px){
+    .placeSection{
+        .container{
+            h2{
+                font-size: 1.25rem;
+                color: var(--orange);
+            }
+            .cardContainer{
+                flex-direction: column;
+                align-items: center;
+
+                .card{
+                    width: 100%;
+                    h3{
+                        font-size: 1.75rem;
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+    }
+}

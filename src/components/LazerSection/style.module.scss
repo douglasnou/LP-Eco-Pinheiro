@@ -38,3 +38,22 @@
         }
     }
 }
+@media(max-width: 800px){
+    .lazerSection{
+        .container{
+            flex-wrap: wrap;
+            .lazerCard{
+                width: 40%;
+                height: 176px;
+                padding: 10px;
+
+                img{
+                    width: 60px;
+                }
+                p{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

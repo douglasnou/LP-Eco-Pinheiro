@@ -19,3 +19,20 @@
         height: 60%;
     }
 }
+
+@media(max-width: 800px) {
+    .bannerSection{
+        flex-direction: column;
+        height: auto;
+
+        .nothing{
+            width: 100%;
+            height: 300px;
+        }
+
+        .form{
+            width: 80%;
+            height: 400px;
+        }
+    }
+}

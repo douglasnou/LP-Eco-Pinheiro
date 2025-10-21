@@ -73,3 +73,31 @@
         }
     }
 }
+@media(max-width: 800px){
+    .youtubeSection{
+        .container{
+            width: 90%;
+            flex-direction: column-reverse;
+            gap: 20px;
+            .textContainer{
+                width: 100%;
+
+                .btnWhatsapp{
+                    width: 100%;
+
+                    .btnContainer{
+                        p{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+            .videoContainer{
+                width: 100%;
+                .video{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

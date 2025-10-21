@@ -62,8 +62,7 @@
     }
 }
 
-// Responsividade
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .slideSection {
         .container {
             width: 95%;
@@ -77,9 +76,13 @@
             }
 
             .imgContainer {
-                width: 100%;
+                width: 90%;
+                gap: 5px;
 
                 .imgCard {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                     .slideImage {
                         height: 200px;
                     }

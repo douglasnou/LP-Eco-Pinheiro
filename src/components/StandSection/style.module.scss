@@ -8,7 +8,6 @@
 
     .container {
         width: 100%;
-        height: 500px;
         display: flex;
         align-items: flex-end;
         justify-content: center;
@@ -81,6 +80,37 @@
             width: 60%;
 
             img {
+                width: 100%;
+            }
+        }
+    }
+}
+@media(max-width: 800px){
+    .standSection{
+        .container{
+            flex-direction: column-reverse;
+            align-items: center;
+            .textContainer{
+                width: 90%;
+                align-items: center;
+                h2{
+                    font-size: 2rem;
+                }
+
+                p{
+                    font-size: 1rem;
+                }
+
+                .btnWhatsapp{
+                    .btnContainer{
+                        p,span{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+
+            .imgContainer{
                 width: 100%;
             }
         }

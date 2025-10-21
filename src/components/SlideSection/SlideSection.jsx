@@ -18,10 +18,12 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
+import { useWindowSize } from 'react-use';
 
 export const SlideSection = () => {
     const [selectedImage, setSelectedImage] = useState(null);
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const { width } = useWindowSize();
 
     const images = [
         { src: Img01, alt: "Espaço 1" },
@@ -53,7 +55,7 @@ export const SlideSection = () => {
                     className={styled.imgContainer}
                     modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                     spaceBetween={50}
-                    slidesPerView={2}
+                    slidesPerView={ width > 800 ? 2 : 1}
                     navigation={false}
                     centeredSlides={true}
                     autoplay={{
@@ -63,7 +65,6 @@ export const SlideSection = () => {
                     pagination={{ clickable: true }}
                     scrollbar={{ draggable: true }}
                     breakpoints={{
-                        // Responsividade
                         320: {
                             slidesPerView: 1,
                             spaceBetween: 20

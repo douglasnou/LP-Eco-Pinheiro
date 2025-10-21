@@ -27,3 +27,13 @@
         }
     }
 }
+@media(max-width: 800px){
+    .formSection{
+        .container{
+            width: 100%;
+            .formContainer{
+                width: 80%;
+            }
+        }
+    }
+}
