@@ -1,0 +1,49 @@
+.footerSection{
+    width: 100%;
+    margin: 25px auto;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font);
+
+    .container{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        .logo{
+            width: 150px;
+        }
+
+        .subtitle{
+            font-size: 1.5rem;
+            font-weight: 400;
+            text-align: center;
+            color: var(--green);
+        }
+
+        .socialContainer{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+
+            li{
+                width: 8%;
+                list-style: none;
+                a{
+                    width: 100%;
+
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+.standSection {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font);
+
+    .container {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        background-color: var(--grey);
+
+        .textContainer {
+            width: 35%;
+            padding: 25px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 25px;
+
+            h2 {
+                width: 100%;
+                color: var(--green-str);
+                font-size: 3rem;
+                font-weight: 700;
+                text-align: left;
+                text-transform: uppercase;
+            }
+
+            p {
+                width: 100%;
+                color: var(--black);
+                font-weight: 400;
+                font-size: 1.25rem;
+            }
+
+            .btnWhatsapp {
+                width: 90%;
+                height: 75px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: linear-gradient(180deg, #4AC44A 0%, #005A32 100%);
+                border-radius: 15px;
+
+                &:hover {
+                    background: linear-gradient(180deg, #005A32 0%, #4AC44A 100%);
+                    }
+
+                .btnContainer {
+                    width: 85%;
+                    height: 75px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 20px;
+
+                    img {
+                        width: 15%;
+                    }
+
+                    p {
+                        font-size: 1.25rem;
+                        font-weight: 800;
+                        color: #ffffff;
+
+                        span {
+                            color: var(--green-yellow);
+                        }
+                    }
+                }
+            }
+        }
+
+        .imgContainer {
+            width: 60%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

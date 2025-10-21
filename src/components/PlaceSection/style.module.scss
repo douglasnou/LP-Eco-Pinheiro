@@ -1,0 +1,61 @@
+.placeSection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font);
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            width: 70%;
+            color: var(--green-str);
+            font-size: 3rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .cardContainer {
+            width: 95%;
+            margin: 25px 0;
+            display: flex;
+            align-items: first baseline;
+            justify-content: center;
+            gap: 20px;
+
+            .card{
+                width: 30%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                h3{
+                    width: 100%;
+                    font-size: 2.00rem;
+                    font-weight: 500;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: var(--green-str);
+                }
+
+                p{
+                    width: 100%;
+                    font-size: 1rem;
+                    text-align: center;
+                    color: var(--black);
+                }
+
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

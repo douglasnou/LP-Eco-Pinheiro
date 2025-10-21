@@ -1,0 +1,92 @@
+.etapaSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font);
+
+    .container{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        .textContainer{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 25px;
+
+            .title{
+                width: 70%;
+                font-size: 3rem;
+                font-weight: 700;
+                color: var(--green-str);
+                text-transform: uppercase;
+                line-height: 55px;
+            }
+
+            .text{
+                width: 90%;
+                font-size: 1.25rem;
+                color: var(--black);
+                text-align: left;
+            }
+
+            .textStyled{
+                width: 90%;
+                font-size: 1.25rem;
+                color: var(--orange);
+                text-transform: uppercase;
+                text-align: left;
+            }
+
+            .btnWhatsapp {
+                width: 95%;
+                height: 75px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: linear-gradient(180deg, #4AC44A 0%, #005A32 100%);
+                border-radius: 15px;
+
+                &:hover {
+                    background: linear-gradient(180deg, #005A32 0%, #4AC44A 100%);
+                    }
+
+                .btnContainer {
+                    width: 85%;
+                    height: 75px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 20px;
+
+                    img {
+                        width: 15%;
+                    }
+
+                    p {
+                        font-size: 1.25rem;
+                        font-weight: 800;
+                        color: #ffffff;
+
+                        span {
+                            color: var(--green-yellow);
+                        }
+                    }
+                }
+            }
+        }
+
+        .imgContainer{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

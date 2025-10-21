@@ -1,0 +1,14 @@
+.videoSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container{
+        width: 40%;
+
+        .video{
+            width: 100%;
+        }
+    }
+}
