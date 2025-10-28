@@ -57,3 +57,17 @@
         }
     }
 }
+@media(min-width: 1900px){
+    .lazerSection{
+        .container{
+            .lazerCard{
+                img{
+                    width: 100px;
+                }
+                p{
+                    font-size: 1.50rem;
+                }
+            }
+        }
+    }
+}

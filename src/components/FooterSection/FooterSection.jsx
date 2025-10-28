@@ -11,23 +11,23 @@ export const FooterSection = () => {
     const socialMedia = [
         {
             img: Instagram,
-            link:"",
+            link:"https://www.instagram.com/eco.urbanismo/",
         },
         {
             img: Whatsapp,
-            link:"",
+            link:"https://api.whatsapp.com/send/?phone=5598985243214&text=Gostaria+de+saber+tudo+sobre+a+nova+Etapa+do+Ecoville+Pinheiro%EF%BF%BD%EF%BF%BD%EF%BF%BD&type=phone_number&app_absent=0",
         },
         {
             img: Facebook,
-            link:"",
+            link:"https://www.facebook.com/profile.php?id=61573350839593",
         },
         {
             img: Youtube,
-            link:"",
+            link:"https://www.youtube.com/@ecourbanismooficial",
         },
         {
             img: Linkedin,
-            link:"",
+            link:"https://www.linkedin.com/company/eco-urbanismo/?viewAsMember=true",
         },
     ];
 
